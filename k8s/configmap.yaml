@@ -1,0 +1,7 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: app-config
+data:
+  DATABASE_NAME: task_tracker_development
+  DATABASE_HOST: postgres
