@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: rails
-          image: techraviraj/railsimg
+          image: techraviraj/argocd:demo
           ports:
             - containerPort: 3000
           env:
